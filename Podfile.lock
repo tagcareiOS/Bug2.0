@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - EBPhotoPages (0.9.1)
+  - EZAudio (1.1.2):
+    - EZAudio/Full (= 1.1.2)
+  - EZAudio/Core (1.1.2)
+  - EZAudio/Full (1.1.2):
+    - EZAudio/Core
+    - TPCircularBuffer (~> 0.0)
+  - PhotoTweaks (1.0.2)
+  - TPCircularBuffer (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.1)
+  - EBPhotoPages (~> 0.9.1)
+  - EZAudio (~> 1.1.2)
+  - PhotoTweaks (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  EBPhotoPages: 57ad7f10c6fc92b734954e00cd98e8eea6feae82
+  EZAudio: 01373de2b1257b77be1bf13753fb1c4ea8a9777e
+  PhotoTweaks: e91ce097f9df435049e7c35d419f9a7749e252bc
+  TPCircularBuffer: 949e9632b9fb99b7274d7b2296ee22bff5841e35
+
+COCOAPODS: 0.39.0
