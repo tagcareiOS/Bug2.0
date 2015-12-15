@@ -1,0 +1,1510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C76F7ED008E64076416423B626778D /* EZAudioFFT.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A3C71D20E928930B22DF3A293DA121 /* EZAudioFFT.m */; };
+		046C7E6CC4157667932C5D903663AA84 /* EBPhotoPagesOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FDDEB0A15D81EF2A8E68239215922DA2 /* EBPhotoPagesOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08B3DC76487D81CE6121CE85FA6AB1DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CB90535C3D59503412C7CF0F10ECA3 /* Foundation.framework */; };
+		0F2FF28C9E793BBF6DA5112D36735F8A /* EZAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = D22609E51E283665EFD56C3E3B79EF46 /* EZAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F8217A7033D4B1169408CA2DEBFA592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CB90535C3D59503412C7CF0F10ECA3 /* Foundation.framework */; };
+		1505B7F07E027170F4CB4D7E75333CF5 /* PhotoTweakView.h in Headers */ = {isa = PBXBuildFile; fileRef = 139613E3833315AD3AB3D4A4F6C9113D /* PhotoTweakView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150E6AEC04EE4261A77ACD4EEC105445 /* EZAudioFloatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 500B78F038D2FACE3AF830E19F424C87 /* EZAudioFloatConverter.m */; };
+		15A038A0EE7FAEB2B64CCE61C3F1D25B /* EZPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 57572645520FE3411B8A184D5172AF51 /* EZPlot.m */; };
+		15B5665CE15A6EC604A8C1032E83EE3A /* EZAudioUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5821DC929FC6F03CC076E6BAFE37FFE1 /* EZAudioUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17F1C390034B90438B648D54A7A5F884 /* EBCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2E97860512640317BD9C8F6D3A7E7D /* EBCommentCell.m */; };
+		1CBDB47B210A0C2448C14A610BC6D4D6 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 10606F006958378816D67561BCFF7E58 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E310D0CE3BE27EF253B6D822B0AEE5E /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ADEB3D673B61C0966CDE7859FB2224 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211D4EA06F5920376A069ACB55DF6006 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B44CC639DD75583DEE9002892032D41 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		247BABC306D6E34B459EB80F30CC00EF /* EZAudioDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F019FAA369B24DF47795C4BFDE01D423 /* EZAudioDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25133D64B0E565EF4EE6E7EB453001A9 /* EZAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 46090E407DC994D681E60CDEA1E73AFE /* EZAudio.m */; };
+		2910F1A23DF01B87197B81DFFD3A350C /* EZAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 619467B18FE455A69952866A37AC1031 /* EZAudioDevice.m */; };
+		29260268149A678528BEC09832A9575B /* EBPhotoPagesStateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FAA49BC4D0403B1D73948EA65FEC53 /* EBPhotoPagesStateDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8269A87473D9F1259E9BD98E7588D3 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 977C27A4DA8CF91BDF871417609E7FCA /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C965056BD89151AD0CFC6CAFA9EEADC /* UIColor+Tweak.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD0AC7362DFB710E941E9913B26076D /* UIColor+Tweak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CF66E8669A348C421E93F2F67C6A61E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C90F0FFDD2B5EEC349B2D909470B868 /* AFHTTPSessionManager.m */; };
+		3033C63AC334D346E9461D0942D8FB69 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DB4DBB8F15393F3DB725C9B842AED4 /* AFURLRequestSerialization.m */; };
+		3163B3491BC44BD87FB76D643161DEE6 /* EZAudioFloatData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D0689EF1ADA1B5FBC43129CD93211 /* EZAudioFloatData.m */; };
+		3305B19CD8390609B4B09625F8D5C6A0 /* EBPhotoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A9DD2037476AC043B0259724434351 /* EBPhotoToolbar.m */; };
+		33683B807FEAE1A4B0EB6B7207065B06 /* EBPhotoTagProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DB51F72AA663FF160E378D147E1E06 /* EBPhotoTagProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A63F61BBF55A57AF0A83751894AA08 /* EZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B9E3FEAF3B5D4C39C26D88DC765B9 /* EZRecorder.m */; };
+		39889DD58D2BBEFF107CE750BBD0D293 /* EZAudioPlotGL.m in Sources */ = {isa = PBXBuildFile; fileRef = B8130CA5C2F5BA70CF59CE6FAF850B4E /* EZAudioPlotGL.m */; };
+		399AC825EE10F70364CE7B0AA89F466D /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 912A6E080F66272EFC4832E60EFC0DD5 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A5B54373A45916EC8DE74D060DE5503 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2E25D6BDB39B461F568C9EB50CB607 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BBBAED8B5BED86B06E2168C6C6F627A /* EBPhotoPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF602F27C3817466CD01BAEA641B0C4 /* EBPhotoPagesController.m */; };
+		3D174154F5657A05FA8206FCCD27C2F1 /* EBPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB58A380C643760F3AC93DA24786BE76 /* EBPhotoViewController.m */; };
+		3D84A3AD28CE295A3CFA0723B647AE7B /* EZMicrophone.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D53969DDA6369D44F907F24B3FC58C /* EZMicrophone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F09C25196EB9F7963EC2FA593812ADC /* EBCommentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDF365239F853376BA82C2021D1904D /* EBCommentCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F1B3F7C7577DA6068294562B54949F6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9744D19EA9E841FF1D13AF5F7EA9981 /* AudioToolbox.framework */; };
+		40368E901914EFA4193A7E8860A50B1A /* EZOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = B1EFC84A85CD2BCF96AA2FFFB76A330A /* EZOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42C1623BF2DFC8A97C984E085DD22572 /* EBPhotoPagesDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FEE5072CC0151FE24C8C4DCBBC6A62 /* EBPhotoPagesDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435C3866ADE241AB27734EE7969530E5 /* EZAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B92DE77CB009A5F569E776F6D7C8FAF5 /* EZAudioDisplayLink.m */; };
+		43F326C773D5D1A8207963889579EB93 /* PhotoTweakView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0987F93D70ED8905549C558DAB801B /* PhotoTweakView.m */; };
+		44006E4E1DF867718A262295CBEC4D2F /* EZOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5F82196AD1D3711FC13ADDC2325E0 /* EZOutput.m */; };
+		453076817CFC1567FD10F11369879A39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528A8BFB16646711FF195201DDAFA97 /* CoreGraphics.framework */; };
+		472A6BFCC6207D98F787649BDF44A1BE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D66128CC816979C35CAEAE2A1A7F13 /* AFHTTPRequestOperationManager.m */; };
+		47B9813220A5571BC02803B98BE816C3 /* EBPhotoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E621F43BF2BE5BF30DFE9737BE62D99 /* EBPhotoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48D643BF3E48386955C3AD80E9FB0BA3 /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0966321C088D8E76256796B52D01DFEA /* TPCircularBuffer+AudioBufferList.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		495F717651B12E6496C72D16BCC28C29 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DFE4E7E8860080C40E43FC1751D6E1 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A5943EC24FBC0BABC83EC90E6139ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97126C08F726AA34F09A1501358C94AC /* UIKit.framework */; };
+		51529A97C86EC4E042CB00A064ED206D /* EBPhotoPagesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2590C13394824C77C859DA5A2CBF3C /* EBPhotoPagesFactory.m */; };
+		51CB355DC032AF7A35987DB1AA5685EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73D9434D238CE0F6F29B4CAB68CBB53 /* AVFoundation.framework */; };
+		51E5A012135E28234B19B29140C1FE4B /* EZRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6302ACDB33B9938980A61CF8B6F45E96 /* EZRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53A1BB271A6545FD7D83EEB502AFF447 /* EBPhotoPagesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F782B69F8A9FC2C50271A4C6AE913 /* EBPhotoPagesOperation.m */; };
+		53B177CC2B27B6195AF2A519DA86434A /* PhotoTweaks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C325A813A66CE874B5A463FFD6FBC3 /* PhotoTweaks-dummy.m */; };
+		53BA1EB28BA98EE871D3D3F5DA4D261D /* EZAudioFloatConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5E0445B17D31BBFC5D072C9424E8BB /* EZAudioFloatConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54BACDF811A35F9057A2273DC0504C14 /* EBPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EACAEE5BC787B069F70452FE61AFEA73 /* EBPhotoView.m */; };
+		5992E83F4F3DD49D9BF6BD7E50D1F84F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CB90535C3D59503412C7CF0F10ECA3 /* Foundation.framework */; };
+		59B164CF9F41D8C6A1B55245B02B8F6F /* EZAudioPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D07D257E9B6E0F8FF142E8A62CC599 /* EZAudioPlot.m */; };
+		5C7FA5F2E2879A1C207EE595577AD7B4 /* EZAudioFloatData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC87259D452E57F8A450CF97207573E /* EZAudioFloatData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CF0E043147B69E77976A2CCADFF18CA /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5DD9170507E1C611AC2A3D30380061 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		609A7FE87388A5F000A80C7C9591A5A8 /* UIColor+Tweak.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B2B26812FAC8427336085B6E96A736 /* UIColor+Tweak.m */; };
+		623DE8793170BF00F5A53FE7A418EFFC /* EBPhotoPagesNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 697CD746857DDFEA2C3D9570EAA220C8 /* EBPhotoPagesNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CC4B79C1FEE1E7B3F2860ADA479D381 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 282D6C6AC723FF03299830284DA3A5F6 /* AFURLSessionManager.m */; };
+		6DBA0C02921FEB99A35626E47D1AA1CC /* PhotoTweaksViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B7C7B00690386467712CB91A7497A0 /* PhotoTweaksViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF07947672335F4D112380820DD975B /* EBTagPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = B350F2328D928FFB462242D1652F85CF /* EBTagPopover.m */; };
+		731468489944D2724BD8679D858B689D /* EBPhotoCommentProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD65E4BC5EE2F6CE3B87F5E2212A8D2 /* EBPhotoCommentProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780F34B09E50C9E9489A761D3A2FBED1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528A8BFB16646711FF195201DDAFA97 /* CoreGraphics.framework */; };
+		78449FCC01114171AA3CCB45C6666206 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 008ECB3F1B009A2F520AD2F4F93BEA9E /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788CBD782B68DC09EC8C0DE46D4C271E /* EBPhotoPagesState.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD393AFAD8BC6EFB41DE4547A31467C /* EBPhotoPagesState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78FCAC68EF77BB488D5B247BDE0BA1D0 /* EZAudioUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FE19663C0CFA46024C41090E9D7614 /* EZAudioUtilities.m */; };
+		7C93F7671C5EA6A87996AF2909B9393C /* EZAudioPlot.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AC5D3E1C1698DBC323ACD03C50E26F /* EZAudioPlot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE4FCDDAC4B93D304EC160D64BCD52B /* TPCircularBuffer+AudioBufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCE244DF85F7D1E39C6B44947C7DE15 /* TPCircularBuffer+AudioBufferList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		803EB24306E3964CE1244BFCC3ED67A4 /* EBPhotoPagesState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F00220C24C04571EA0610A215AE4218 /* EBPhotoPagesState.m */; };
+		854BC4449D8CAD0F2799B021D1914C3B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E937868D0E2192BF1DFD1A7906A11 /* UIRefreshControl+AFNetworking.m */; };
+		876C2EF5FE318346CDCB4BFE25A9D5B2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C8E2D658518AC2E3F183C34C310ADC /* AFHTTPRequestOperation.m */; };
+		88F8437C81214461103FA0FF7CCD271F /* EZMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B570A5BECC7169856B9DA6D5BF0D58 /* EZMicrophone.m */; };
+		89BB10913865FE35A1FF33A225740C3B /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 31CCED1FC911BB8EE87358AA83C0CA38 /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B26DF4613229D022117F5EBDB63852D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CB90535C3D59503412C7CF0F10ECA3 /* Foundation.framework */; };
+		903A0E1F82A29D285902CBB5A0828BE9 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EF67A63AC78B524D6F1BE99B95A87669 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		921B7D83843F87C7D588E5B8171C25C2 /* TPCircularBuffer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BE4E05C0CD8A1D389F1CEB6E4ECDB /* TPCircularBuffer-dummy.m */; };
+		964472B8CA68F418A7FD97E286B875EC /* EBPhotoPages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6E87B21700753594A1FE2AA580F671 /* EBPhotoPages-dummy.m */; };
+		99E82D6DC032555656E37AF2367B20D3 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0662CC63A4A7CC3088329FD6557B71D9 /* UIButton+AFNetworking.m */; };
+		9A04E971065AF4281E43947994A53D07 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B409290EA0C72B1CB2422CC47CBDA11 /* UIWebView+AFNetworking.m */; };
+		9B47A1441B897F71505D8BE670B0940B /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8780616CE5341F1149B61958E1C69B /* UIAlertView+AFNetworking.m */; };
+		9BCAAE70882878033677BEAD4805F859 /* EBPhotoViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB71E3303A5EF846CE2423084AB4989 /* EBPhotoViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E2B7BBBAE48F004EB526CCE9B5E6C9C /* EZAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B8F7C2697FC6B81E93B90E988BB090 /* EZAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A18AC3041B8177885699754B5C4BD00C /* EBCommentsTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B3581B4D7CC2F1C5F9D9B7233A36B1 /* EBCommentsTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1A6D1672135EDC6EE8D6900CFBAB05E /* EBCommentsViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5788EB2BBF05EE6A45391CFCAC4014D1 /* EBCommentsViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A28588D1CCB5253CF80509F30A1AF1A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D51A3227CF0D967DA393DD81DE6464F /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C6358201F7FE29AC21CFE9B7343993 /* EZAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 373B86AE0526D04B70CF761F52A801CB /* EZAudioPlayer.m */; };
+		A45890AB83DCB91CDB1A558F25D3567D /* EZPlot.h in Headers */ = {isa = PBXBuildFile; fileRef = 278C89152B1154E5D2CF2C5101050EC9 /* EZPlot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D24CE4BCA5723C6CB7C788D42F7E7A /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A3179CB172765F2A9563296DCEE2C9 /* TPCircularBuffer.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4EE8D1BEE38B87066BAA1B09A047356 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E8C3D6D9C62474F7D65DCCD484A3F9 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD29361C51F6FE1842B5E62B0C87F44C /* EBCommentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E650A74FFDEFE507BD159B0F4FB98510 /* EBCommentsView.m */; };
+		AE607E682415FAA160B33C7C13A8475B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AEEB72E698EEB4CA5457569369715D /* UIActivityIndicatorView+AFNetworking.m */; };
+		AFA295994F4761312E6D9AF7FA648134 /* EBCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC40456EBC539540F9E40ECE797C307 /* EBCaptionView.m */; };
+		B01529112C5192A90C2721290CBF847F /* EBPhotoPagesFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DD6363B3A68EA143F93C78B433B51F /* EBPhotoPagesFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B12AD2EE044D6F7424F75F1506B516B2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C76AC359244B310BBC8710393C64F36E /* AFSecurityPolicy.m */; };
+		B2B5DEC33B644F946C59F656AAAA8146 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3BFDDCFD1028C77FB608303371241 /* AFNetworkActivityIndicatorManager.m */; };
+		B7053EB4EAD70C1F3B65BFA7482671D5 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = EE4E75BCADDAC3BAE73BD328C6F0E3EF /* TPCircularBuffer.c */; };
+		B9DAA002CF3E0E8EBE9B6E9A7778CFD4 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64571E6B9685DBF30A176B47EDB928AF /* AFNetworking-dummy.m */; };
+		BA025A85A850C1E24A6C92F4C29E5531 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441A87424AB123DA82BF78D5697244BD /* SystemConfiguration.framework */; };
+		BAD89143513F595F121DA5199F7B1E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CB90535C3D59503412C7CF0F10ECA3 /* Foundation.framework */; };
+		BC7993B7436D4D7FADE6DD554DA52769 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C11602A6175E8326D1975FBC872003 /* AFNetworkReachabilityManager.m */; };
+		BE8819C3239C5D081794C93F63D8578C /* EZAudioPlotGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 315E846DC193875F4F00E2395D885345 /* EZAudioPlotGL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F89AD0D7F3269A794B75DE22419DAF /* EBPhotoToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA2480AC62BD723CF5F11A99E4C7C8 /* EBPhotoToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C58268D5A4D2A786576E0EAA5B50FB93 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8699B791368B725EE690DA3981C33D /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7ACDDE36465ACAF629FEC233B1BF172 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0FF5DA5A7BDEB01CA1DAE455CA11BE /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA0F8074B35A2F73890310EC4521A0D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE37BBF1612D1CFFDCB63E3BF0DEA8A /* AFURLResponseSerialization.m */; };
+		CAAAA256CDC9F1E36C71C03561DF813D /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8B2FA445AA7BDAA906948BB3B3B0A6 /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCD38AD9F8D2418E4F53E85D85C3C9A5 /* PhotoTweaksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ABB5629C0E1115A4669CABF83AEE41 /* PhotoTweaksViewController.m */; };
+		CD2E7A4DEA2AF306F9BD8109E03F227C /* EBPhotoPagesDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 476E05BC4F3EB4BA5B4ADAC4D0E4A765 /* EBPhotoPagesDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D070B784EFCA099C141EEAB69FBCC870 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEC0BFB7A02F482F10F32C376EFAF2E /* UIImageView+AFNetworking.m */; };
+		D4A65C2E29ACB340587FD41196176F8A /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D880942C6784B46E6B437A7DA810C589 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D520DB66DF441FBBE85C98CD1B8604BE /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		D844C698E4A5CE55AF58B4F038A24F2F /* EBCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB26ADE3029417F6305824E579AB6D6B /* EBCaptionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D900E17DFCB1248D57FD77AB0FC65625 /* EBTagPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 5333F95B1FA19A3CF9EDE2ACA8CF39DF /* EBTagPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2E92A71137AD2E6993E8B0CE682C89 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2782A0CABF814F151C91C6D1B87DBC64 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB42C604EF2F39D542F805AC6A05E090 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532E0152550C276E6E88CB876E566458 /* MobileCoreServices.framework */; };
+		DB82DA022BE5EA9E71B8B96CF426162D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73D9434D238CE0F6F29B4CAB68CBB53 /* AVFoundation.framework */; };
+		DE90C1B9F4475ADB9F0BA5AB57A2BDE1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACA2706F54E8313B0856F6701415F84 /* GLKit.framework */; };
+		DECD5915774351B8473476B041DD87D7 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 875203B4CD0CC75D58F5FFF19BF1BBDB /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34D7F2FFE45F0CE9C5DA7DEEF9D6193 /* EBPhotoPagesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E4DDE19D8B7E8A68401D804774C4F5 /* EBPhotoPagesController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A3D26101CA0DD86D7505F88D8182F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B264C4FEBF18C0B48DB4D881ABDD32DB /* QuartzCore.framework */; };
+		E5D1073944611C8BD6E368ECBEC9806D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9744D19EA9E841FF1D13AF5F7EA9981 /* AudioToolbox.framework */; };
+		E6DD6ABB4FC13B60FA54C950FB6B262B /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDC0A64ECCAF1EB30685C8D38DA2C4A /* AFURLConnectionOperation.m */; };
+		E8013DBE896E062E9DEF524A48997C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CB90535C3D59503412C7CF0F10ECA3 /* Foundation.framework */; };
+		E9293B75759903B6ACE54ED8CB82F31D /* EBTagPopoverDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D3EF739CB1C89778CE9023949AD33153 /* EBTagPopoverDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA0664FBF77E0C96DDB570C4B7DF95D8 /* EBCommentsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2BE18B9883B3DF13FF694D76077251 /* EBCommentsTableView.m */; };
+		EA4D712630F8665A34E178F82C8D8331 /* EBPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A80222401B031C6452F697788C5B89 /* EBPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAB601E127879B992991497E58D9CE0E /* EZAudioDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F45FB34C307075CB01D6232BDA6A54 /* EZAudioDisplayLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBDCCF6A1E894086D758E5BA260FC7E9 /* EZAudioFFT.h in Headers */ = {isa = PBXBuildFile; fileRef = F15C0CD08931FFF58ED4F74B3873FB99 /* EZAudioFFT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F08E19D8B440D85D564273B1A501B1FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528A8BFB16646711FF195201DDAFA97 /* CoreGraphics.framework */; };
+		F16BC58695100DA561560CF1F1D2F15B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA35C4EFCA4F8CAB76097DD57DD1D295 /* Accelerate.framework */; };
+		F2AF56F00E313B9CD0F4ADA3C5D73BDF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88250CA5B5435E85D5F43A3E121DED64 /* Security.framework */; };
+		F4A1512E8C4D8C8194CBB276BF72A552 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F3A8C3C8BFAE294959D0229FEFC319 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B03681047157E5C357E584147F5A46 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3457E6C9C6856DE84A0F9370819AE4AA /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DCBA2A42A38C6E7A755182DA50DEA2 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2AC9DEAF11664D79A50B6115598326 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5D19AA1EA4CD82DDA82D5B9B9A3C6C9 /* EBCommentsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEA53977FB714520625BDA2BF652C0C /* EBCommentsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6774932CC3B1F53D59F35F5028970D1 /* EZAudio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86808D5EEEADDE4309B83B7B013F46B5 /* EZAudio-dummy.m */; };
+		F9949E42A479D74F0270A8775FA483AA /* EBShadedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8191D42A5297076380C8864439E21914 /* EBShadedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA841486049AA8C4140831561770A852 /* EBShadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3190EF08596CCD5788EC66F565332A6E /* EBShadedView.m */; };
+		FABDCB54BF6A8173D87F02261D933A4C /* EZAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CA0D781198906820844E29F8780E66 /* EZAudioFile.m */; };
+		FD6F966F458CEE40B07A2367BA3BC8EC /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4DB9C386CFA8D1EA9F48AD3A5D8142 /* UIProgressView+AFNetworking.m */; };
+		FFB71CF49C4428E4E1CF732FF60FE21D /* EZAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 98115490035D1F4C13C6BDAF01CCD0FB /* EZAudioFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		322716F65B7FE520618494EF50ED56BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410B25DF16EA5C5B3E2698F74F9625FB;
+			remoteInfo = AFNetworking;
+		};
+		66FAF37CEACC0D2441BA3CC5A4F237D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94C068BD0CB145580C0C2C687E821AE;
+			remoteInfo = EZAudio;
+		};
+		9D846178B7096ACB16171AF85453B7F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07ABC0B55D3B505FDCF72E7CB6EFA688;
+			remoteInfo = TPCircularBuffer;
+		};
+		E44E09176DFE275EAF5EA65B14075D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A936C30649417F6EE2597E53A4F7B17;
+			remoteInfo = PhotoTweaks;
+		};
+		EAEDAE6A59F97630FDD9B211134A44CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07ABC0B55D3B505FDCF72E7CB6EFA688;
+			remoteInfo = TPCircularBuffer;
+		};
+		F05FBE1193B697D909B45D22B44A0049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6066B2BF44CE7CE8E43514ABE04556;
+			remoteInfo = EBPhotoPages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008ECB3F1B009A2F520AD2F4F93BEA9E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		04FEE5072CC0151FE24C8C4DCBBC6A62 /* EBPhotoPagesDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoPagesDataSource.h; path = EBPhotoPagesController/EBPhotoPagesDataSource.h; sourceTree = "<group>"; };
+		0662CC63A4A7CC3088329FD6557B71D9 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		0966321C088D8E76256796B52D01DFEA /* TPCircularBuffer+AudioBufferList.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = "TPCircularBuffer+AudioBufferList.c"; sourceTree = "<group>"; };
+		0ACA2706F54E8313B0856F6701415F84 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		10606F006958378816D67561BCFF7E58 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		139613E3833315AD3AB3D4A4F6C9113D /* PhotoTweakView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhotoTweakView.h; path = PhotoTweaks/PhotoTweaks/PhotoTweakView.h; sourceTree = "<group>"; };
+		18DFE4E7E8860080C40E43FC1751D6E1 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		1A2E1BEA2EA89099FE9AFAA7B68DD048 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF602F27C3817466CD01BAEA641B0C4 /* EBPhotoPagesController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBPhotoPagesController.m; path = EBPhotoPagesController/EBPhotoPagesController.m; sourceTree = "<group>"; };
+		1F2E97860512640317BD9C8F6D3A7E7D /* EBCommentCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBCommentCell.m; path = EBPhotoPagesController/EBCommentCell.m; sourceTree = "<group>"; };
+		20FE19663C0CFA46024C41090E9D7614 /* EZAudioUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioUtilities.m; path = EZAudio/EZAudioUtilities.m; sourceTree = "<group>"; };
+		22E4DDE19D8B7E8A68401D804774C4F5 /* EBPhotoPagesController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoPagesController.h; path = EBPhotoPagesController/EBPhotoPagesController.h; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2782A0CABF814F151C91C6D1B87DBC64 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		278C89152B1154E5D2CF2C5101050EC9 /* EZPlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZPlot.h; path = EZAudio/EZPlot.h; sourceTree = "<group>"; };
+		282D6C6AC723FF03299830284DA3A5F6 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		2A9B9920104A26DA00E29909A4F67E92 /* libEZAudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEZAudio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B409290EA0C72B1CB2422CC47CBDA11 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		2BE37BBF1612D1CFFDCB63E3BF0DEA8A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		2C8699B791368B725EE690DA3981C33D /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		2E87CF934E6A1657B01A924878A5830B /* libTPCircularBuffer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTPCircularBuffer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		315E846DC193875F4F00E2395D885345 /* EZAudioPlotGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlotGL.h; path = EZAudio/EZAudioPlotGL.h; sourceTree = "<group>"; };
+		3190EF08596CCD5788EC66F565332A6E /* EBShadedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBShadedView.m; path = EBPhotoPagesController/EBShadedView.m; sourceTree = "<group>"; };
+		31B2B26812FAC8427336085B6E96A736 /* UIColor+Tweak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Tweak.m"; path = "PhotoTweaks/PhotoTweaks/UIColor+Tweak.m"; sourceTree = "<group>"; };
+		31CCED1FC911BB8EE87358AA83C0CA38 /* TPCircularBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPCircularBuffer.h; path = EZAudio/TPCircularBuffer.h; sourceTree = "<group>"; };
+		3457E6C9C6856DE84A0F9370819AE4AA /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		373B86AE0526D04B70CF761F52A801CB /* EZAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioPlayer.m; path = EZAudio/EZAudioPlayer.m; sourceTree = "<group>"; };
+		37C8E2D658518AC2E3F183C34C310ADC /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BDF365239F853376BA82C2021D1904D /* EBCommentCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBCommentCell.h; path = EBPhotoPagesController/EBCommentCell.h; sourceTree = "<group>"; };
+		40AEEB72E698EEB4CA5457569369715D /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		41F26FBBEE400AEA4F8B166624F191D5 /* PhotoTweaks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhotoTweaks.xcconfig; sourceTree = "<group>"; };
+		42C325A813A66CE874B5A463FFD6FBC3 /* PhotoTweaks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhotoTweaks-dummy.m"; sourceTree = "<group>"; };
+		441A87424AB123DA82BF78D5697244BD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		44F3A8C3C8BFAE294959D0229FEFC319 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		46090E407DC994D681E60CDEA1E73AFE /* EZAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudio.m; path = EZAudio/EZAudio.m; sourceTree = "<group>"; };
+		46E8C3D6D9C62474F7D65DCCD484A3F9 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		476E05BC4F3EB4BA5B4ADAC4D0E4A765 /* EBPhotoPagesDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoPagesDelegate.h; path = EBPhotoPagesController/EBPhotoPagesDelegate.h; sourceTree = "<group>"; };
+		48B7C7B00690386467712CB91A7497A0 /* PhotoTweaksViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhotoTweaksViewController.h; path = PhotoTweaks/PhotoTweaks/PhotoTweaksViewController.h; sourceTree = "<group>"; };
+		48D50577643B102AC7D38D0015146B8F /* PhotoTweaks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhotoTweaks-prefix.pch"; sourceTree = "<group>"; };
+		49DB4DBB8F15393F3DB725C9B842AED4 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4B44CC639DD75583DEE9002892032D41 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4C5DD9170507E1C611AC2A3D30380061 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		4DB3BFDDCFD1028C77FB608303371241 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		4F2590C13394824C77C859DA5A2CBF3C /* EBPhotoPagesFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBPhotoPagesFactory.m; path = EBPhotoPagesController/EBPhotoPagesFactory.m; sourceTree = "<group>"; };
+		4F2E25D6BDB39B461F568C9EB50CB607 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		500B78F038D2FACE3AF830E19F424C87 /* EZAudioFloatConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioFloatConverter.m; path = EZAudio/EZAudioFloatConverter.m; sourceTree = "<group>"; };
+		532E0152550C276E6E88CB876E566458 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		5333F95B1FA19A3CF9EDE2ACA8CF39DF /* EBTagPopover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBTagPopover.h; path = EBPhotoPagesController/EBTagPopover.h; sourceTree = "<group>"; };
+		5423E4AFB785933046698C30314F3863 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ABB5629C0E1115A4669CABF83AEE41 /* PhotoTweaksViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PhotoTweaksViewController.m; path = PhotoTweaks/PhotoTweaks/PhotoTweaksViewController.m; sourceTree = "<group>"; };
+		56A80222401B031C6452F697788C5B89 /* EBPhotoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoViewController.h; path = EBPhotoPagesController/EBPhotoViewController.h; sourceTree = "<group>"; };
+		57572645520FE3411B8A184D5172AF51 /* EZPlot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZPlot.m; path = EZAudio/EZPlot.m; sourceTree = "<group>"; };
+		5788EB2BBF05EE6A45391CFCAC4014D1 /* EBCommentsViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBCommentsViewDelegate.h; path = EBPhotoPagesController/EBCommentsViewDelegate.h; sourceTree = "<group>"; };
+		5821DC929FC6F03CC076E6BAFE37FFE1 /* EZAudioUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioUtilities.h; path = EZAudio/EZAudioUtilities.h; sourceTree = "<group>"; };
+		5B44C8624C0E0CE475FEF479D78FE321 /* EBPhotoPages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EBPhotoPages-prefix.pch"; sourceTree = "<group>"; };
+		5B4D0689EF1ADA1B5FBC43129CD93211 /* EZAudioFloatData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioFloatData.m; path = EZAudio/EZAudioFloatData.m; sourceTree = "<group>"; };
+		5C5E937868D0E2192BF1DFD1A7906A11 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		5FD393AFAD8BC6EFB41DE4547A31467C /* EBPhotoPagesState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoPagesState.h; path = EBPhotoPagesController/EBPhotoPagesState.h; sourceTree = "<group>"; };
+		619467B18FE455A69952866A37AC1031 /* EZAudioDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioDevice.m; path = EZAudio/EZAudioDevice.m; sourceTree = "<group>"; };
+		6302ACDB33B9938980A61CF8B6F45E96 /* EZRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZRecorder.h; path = EZAudio/EZRecorder.h; sourceTree = "<group>"; };
+		64571E6B9685DBF30A176B47EDB928AF /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		697CD746857DDFEA2C3D9570EAA220C8 /* EBPhotoPagesNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoPagesNotifications.h; path = EBPhotoPagesController/EBPhotoPagesNotifications.h; sourceTree = "<group>"; };
+		6A8B2FA445AA7BDAA906948BB3B3B0A6 /* TPCircularBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
+		6CCA2480AC62BD723CF5F11A99E4C7C8 /* EBPhotoToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoToolbar.h; path = EBPhotoPagesController/EBPhotoToolbar.h; sourceTree = "<group>"; };
+		6E6E87B21700753594A1FE2AA580F671 /* EBPhotoPages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EBPhotoPages-dummy.m"; sourceTree = "<group>"; };
+		70B3581B4D7CC2F1C5F9D9B7233A36B1 /* EBCommentsTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBCommentsTableView.h; path = EBPhotoPagesController/EBCommentsTableView.h; sourceTree = "<group>"; };
+		73A3179CB172765F2A9563296DCEE2C9 /* TPCircularBuffer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
+		7528A8BFB16646711FF195201DDAFA97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		77A9DD2037476AC043B0259724434351 /* EBPhotoToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBPhotoToolbar.m; path = EBPhotoPagesController/EBPhotoToolbar.m; sourceTree = "<group>"; };
+		7C90F0FFDD2B5EEC349B2D909470B868 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		7EB71E3303A5EF846CE2423084AB4989 /* EBPhotoViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoViewControllerDelegate.h; path = EBPhotoPagesController/EBPhotoViewControllerDelegate.h; sourceTree = "<group>"; };
+		7F00220C24C04571EA0610A215AE4218 /* EBPhotoPagesState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBPhotoPagesState.m; path = EBPhotoPagesController/EBPhotoPagesState.m; sourceTree = "<group>"; };
+		8191D42A5297076380C8864439E21914 /* EBShadedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBShadedView.h; path = EBPhotoPagesController/EBShadedView.h; sourceTree = "<group>"; };
+		823F782B69F8A9FC2C50271A4C6AE913 /* EBPhotoPagesOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBPhotoPagesOperation.m; path = EBPhotoPagesController/EBPhotoPagesOperation.m; sourceTree = "<group>"; };
+		857151A26C4BF74AC229810FF8BE43CD /* EZAudio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZAudio-prefix.pch"; sourceTree = "<group>"; };
+		86808D5EEEADDE4309B83B7B013F46B5 /* EZAudio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZAudio-dummy.m"; sourceTree = "<group>"; };
+		86ADEB3D673B61C0966CDE7859FB2224 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		875203B4CD0CC75D58F5FFF19BF1BBDB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		88250CA5B5435E85D5F43A3E121DED64 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8CC87259D452E57F8A450CF97207573E /* EZAudioFloatData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFloatData.h; path = EZAudio/EZAudioFloatData.h; sourceTree = "<group>"; };
+		8D2BE18B9883B3DF13FF694D76077251 /* EBCommentsTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBCommentsTableView.m; path = EBPhotoPagesController/EBCommentsTableView.m; sourceTree = "<group>"; };
+		8D51A3227CF0D967DA393DD81DE6464F /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		8EEA53977FB714520625BDA2BF652C0C /* EBCommentsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBCommentsView.h; path = EBPhotoPagesController/EBCommentsView.h; sourceTree = "<group>"; };
+		8FD0AC7362DFB710E941E9913B26076D /* UIColor+Tweak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Tweak.h"; path = "PhotoTweaks/PhotoTweaks/UIColor+Tweak.h"; sourceTree = "<group>"; };
+		90CA0D781198906820844E29F8780E66 /* EZAudioFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioFile.m; path = EZAudio/EZAudioFile.m; sourceTree = "<group>"; };
+		912A6E080F66272EFC4832E60EFC0DD5 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		930FD7C65AD444866E3005D4E09E8283 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		93B8F7C2697FC6B81E93B90E988BB090 /* EZAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlayer.h; path = EZAudio/EZAudioPlayer.h; sourceTree = "<group>"; };
+		95D66128CC816979C35CAEAE2A1A7F13 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		96FAA49BC4D0403B1D73948EA65FEC53 /* EBPhotoPagesStateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoPagesStateDelegate.h; path = EBPhotoPagesController/EBPhotoPagesStateDelegate.h; sourceTree = "<group>"; };
+		97126C08F726AA34F09A1501358C94AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		977C27A4DA8CF91BDF871417609E7FCA /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		98115490035D1F4C13C6BDAF01CCD0FB /* EZAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFile.h; path = EZAudio/EZAudioFile.h; sourceTree = "<group>"; };
+		98574833855E1E4FAAD3537E17EFAE4B /* libPhotoTweaks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPhotoTweaks.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9BCE244DF85F7D1E39C6B44947C7DE15 /* TPCircularBuffer+AudioBufferList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPCircularBuffer+AudioBufferList.h"; sourceTree = "<group>"; };
+		9CD65E4BC5EE2F6CE3B87F5E2212A8D2 /* EBPhotoCommentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoCommentProtocol.h; path = EBPhotoPagesController/EBPhotoCommentProtocol.h; sourceTree = "<group>"; };
+		9E621F43BF2BE5BF30DFE9737BE62D99 /* EBPhotoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoView.h; path = EBPhotoPagesController/EBPhotoView.h; sourceTree = "<group>"; };
+		A05AE00C44C11777596BE0EAB2E23CEC /* EZAudio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZAudio.xcconfig; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A5B570A5BECC7169856B9DA6D5BF0D58 /* EZMicrophone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZMicrophone.m; path = EZAudio/EZMicrophone.m; sourceTree = "<group>"; };
+		A5D53969DDA6369D44F907F24B3FC58C /* EZMicrophone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZMicrophone.h; path = EZAudio/EZMicrophone.h; sourceTree = "<group>"; };
+		AB0FF5DA5A7BDEB01CA1DAE455CA11BE /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		AB26ADE3029417F6305824E579AB6D6B /* EBCaptionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBCaptionView.h; path = EBPhotoPagesController/EBCaptionView.h; sourceTree = "<group>"; };
+		ADEC0BFB7A02F482F10F32C376EFAF2E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		AEC40456EBC539540F9E40ECE797C307 /* EBCaptionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBCaptionView.m; path = EBPhotoPagesController/EBCaptionView.m; sourceTree = "<group>"; };
+		AF0987F93D70ED8905549C558DAB801B /* PhotoTweakView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PhotoTweakView.m; path = PhotoTweaks/PhotoTweaks/PhotoTweakView.m; sourceTree = "<group>"; };
+		B023A6AA94ECC72185A8E0CB6D8CDB5A /* EBPhotoPages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EBPhotoPages.xcconfig; sourceTree = "<group>"; };
+		B1EFC84A85CD2BCF96AA2FFFB76A330A /* EZOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZOutput.h; path = EZAudio/EZOutput.h; sourceTree = "<group>"; };
+		B264C4FEBF18C0B48DB4D881ABDD32DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B350F2328D928FFB462242D1652F85CF /* EBTagPopover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBTagPopover.m; path = EBPhotoPagesController/EBTagPopover.m; sourceTree = "<group>"; };
+		B8130CA5C2F5BA70CF59CE6FAF850B4E /* EZAudioPlotGL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioPlotGL.m; path = EZAudio/EZAudioPlotGL.m; sourceTree = "<group>"; };
+		B8F216A98DD176AE93B5B4A8742CC501 /* TPCircularBuffer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPCircularBuffer-prefix.pch"; sourceTree = "<group>"; };
+		B92DE77CB009A5F569E776F6D7C8FAF5 /* EZAudioDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioDisplayLink.m; path = EZAudio/EZAudioDisplayLink.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC4DB9C386CFA8D1EA9F48AD3A5D8142 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		C47BE4E05C0CD8A1D389F1CEB6E4ECDB /* TPCircularBuffer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPCircularBuffer-dummy.m"; sourceTree = "<group>"; };
+		C76AC359244B310BBC8710393C64F36E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		C8C11602A6175E8326D1975FBC872003 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		C9744D19EA9E841FF1D13AF5F7EA9981 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		CC6B9E3FEAF3B5D4C39C26D88DC765B9 /* EZRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZRecorder.m; path = EZAudio/EZRecorder.m; sourceTree = "<group>"; };
+		CE2AC9DEAF11664D79A50B6115598326 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		D22609E51E283665EFD56C3E3B79EF46 /* EZAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudio.h; path = EZAudio/EZAudio.h; sourceTree = "<group>"; };
+		D3EF739CB1C89778CE9023949AD33153 /* EBTagPopoverDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBTagPopoverDelegate.h; path = EBPhotoPagesController/EBTagPopoverDelegate.h; sourceTree = "<group>"; };
+		D3F45FB34C307075CB01D6232BDA6A54 /* EZAudioDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioDisplayLink.h; path = EZAudio/EZAudioDisplayLink.h; sourceTree = "<group>"; };
+		D73D9434D238CE0F6F29B4CAB68CBB53 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		D880942C6784B46E6B437A7DA810C589 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		D9A3C71D20E928930B22DF3A293DA121 /* EZAudioFFT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioFFT.m; path = EZAudio/EZAudioFFT.m; sourceTree = "<group>"; };
+		DB58A380C643760F3AC93DA24786BE76 /* EBPhotoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBPhotoViewController.m; path = EBPhotoPagesController/EBPhotoViewController.m; sourceTree = "<group>"; };
+		DFDC0A64ECCAF1EB30685C8D38DA2C4A /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		E0DB51F72AA663FF160E378D147E1E06 /* EBPhotoTagProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoTagProtocol.h; path = EBPhotoPagesController/EBPhotoTagProtocol.h; sourceTree = "<group>"; };
+		E1AC5D3E1C1698DBC323ACD03C50E26F /* EZAudioPlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlot.h; path = EZAudio/EZAudioPlot.h; sourceTree = "<group>"; };
+		E2DD6363B3A68EA143F93C78B433B51F /* EBPhotoPagesFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoPagesFactory.h; path = EBPhotoPagesController/EBPhotoPagesFactory.h; sourceTree = "<group>"; };
+		E5BE1F92670C1B5FF3761BDFAE5BFC68 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		E650A74FFDEFE507BD159B0F4FB98510 /* EBCommentsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBCommentsView.m; path = EBPhotoPagesController/EBCommentsView.m; sourceTree = "<group>"; };
+		EA35C4EFCA4F8CAB76097DD57DD1D295 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		EACAEE5BC787B069F70452FE61AFEA73 /* EBPhotoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EBPhotoView.m; path = EBPhotoPagesController/EBPhotoView.m; sourceTree = "<group>"; };
+		EE4E75BCADDAC3BAE73BD328C6F0E3EF /* TPCircularBuffer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = TPCircularBuffer.c; path = EZAudio/TPCircularBuffer.c; sourceTree = "<group>"; };
+		EF67A63AC78B524D6F1BE99B95A87669 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		F019FAA369B24DF47795C4BFDE01D423 /* EZAudioDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioDevice.h; path = EZAudio/EZAudioDevice.h; sourceTree = "<group>"; };
+		F15C0CD08931FFF58ED4F74B3873FB99 /* EZAudioFFT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFFT.h; path = EZAudio/EZAudioFFT.h; sourceTree = "<group>"; };
+		F2C0CA58A96FCBFD5DE959A979C4D19C /* TPCircularBuffer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPCircularBuffer.xcconfig; sourceTree = "<group>"; };
+		F9CB90535C3D59503412C7CF0F10ECA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F9D07D257E9B6E0F8FF142E8A62CC599 /* EZAudioPlot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioPlot.m; path = EZAudio/EZAudioPlot.m; sourceTree = "<group>"; };
+		FA8780616CE5341F1149B61958E1C69B /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		FDA5F82196AD1D3711FC13ADDC2325E0 /* EZOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZOutput.m; path = EZAudio/EZOutput.m; sourceTree = "<group>"; };
+		FDDEB0A15D81EF2A8E68239215922DA2 /* EBPhotoPagesOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EBPhotoPagesOperation.h; path = EBPhotoPagesController/EBPhotoPagesOperation.h; sourceTree = "<group>"; };
+		FF3473A09B3206926E8ECD90D24D8746 /* libEBPhotoPages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEBPhotoPages.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5E0445B17D31BBFC5D072C9424E8BB /* EZAudioFloatConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFloatConverter.h; path = EZAudio/EZAudioFloatConverter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E9B1A5FF7422247FBBF792FDAF06CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16BC58695100DA561560CF1F1D2F15B /* Accelerate.framework in Frameworks */,
+				E5D1073944611C8BD6E368ECBEC9806D /* AudioToolbox.framework in Frameworks */,
+				DB82DA022BE5EA9E71B8B96CF426162D /* AVFoundation.framework in Frameworks */,
+				BAD89143513F595F121DA5199F7B1E3A /* Foundation.framework in Frameworks */,
+				DE90C1B9F4475ADB9F0BA5AB57A2BDE1 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59261692E2984B11987024F9F5C95B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780F34B09E50C9E9489A761D3A2FBED1 /* CoreGraphics.framework in Frameworks */,
+				8B26DF4613229D022117F5EBDB63852D /* Foundation.framework in Frameworks */,
+				4A5943EC24FBC0BABC83EC90E6139ADE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54AA80FC4143F3631D4386620344068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B3DC76487D81CE6121CE85FA6AB1DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9D079C4F5228B1628B6222F5792E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1B3F7C7577DA6068294562B54949F6 /* AudioToolbox.framework in Frameworks */,
+				E8013DBE896E062E9DEF524A48997C20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A9525E4C1F0A009757AD515F98B799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51CB355DC032AF7A35987DB1AA5685EE /* AVFoundation.framework in Frameworks */,
+				453076817CFC1567FD10F11369879A39 /* CoreGraphics.framework in Frameworks */,
+				5992E83F4F3DD49D9BF6BD7E50D1F84F /* Foundation.framework in Frameworks */,
+				E3A3D26101CA0DD86D7505F88D8182F0 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F428C0A5C7AEF469CC7F9B7E6EC0003A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08E19D8B440D85D564273B1A501B1FC /* CoreGraphics.framework in Frameworks */,
+				0F8217A7033D4B1169408CA2DEBFA592 /* Foundation.framework in Frameworks */,
+				DB42C604EF2F39D542F805AC6A05E090 /* MobileCoreServices.framework in Frameworks */,
+				F2AF56F00E313B9CD0F4ADA3C5D73BDF /* Security.framework in Frameworks */,
+				BA025A85A850C1E24A6C92F4C29E5531 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		072FEFED0AB9F939C47B50E5CF334DD1 /* PhotoTweaks */ = {
+			isa = PBXGroup;
+			children = (
+				48B7C7B00690386467712CB91A7497A0 /* PhotoTweaksViewController.h */,
+				55ABB5629C0E1115A4669CABF83AEE41 /* PhotoTweaksViewController.m */,
+				139613E3833315AD3AB3D4A4F6C9113D /* PhotoTweakView.h */,
+				AF0987F93D70ED8905549C558DAB801B /* PhotoTweakView.m */,
+				8FD0AC7362DFB710E941E9913B26076D /* UIColor+Tweak.h */,
+				31B2B26812FAC8427336085B6E96A736 /* UIColor+Tweak.m */,
+				2B5E975814FF5C5315391A5FD9823012 /* Support Files */,
+			);
+			path = PhotoTweaks;
+			sourceTree = "<group>";
+		};
+		0FC56DFF750BCC093756725F182D77FC /* EZAudio */ = {
+			isa = PBXGroup;
+			children = (
+				F86989EDFA9D0C70AD45102178AA9846 /* Core */,
+				D794011EECEC95A149BA2BA8967B7193 /* Support Files */,
+			);
+			path = EZAudio;
+			sourceTree = "<group>";
+		};
+		2B5E975814FF5C5315391A5FD9823012 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41F26FBBEE400AEA4F8B166624F191D5 /* PhotoTweaks.xcconfig */,
+				42C325A813A66CE874B5A463FFD6FBC3 /* PhotoTweaks-dummy.m */,
+				48D50577643B102AC7D38D0015146B8F /* PhotoTweaks-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PhotoTweaks";
+			sourceTree = "<group>";
+		};
+		33A43E4796FDE28C81D3D116C6A11C98 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				977C27A4DA8CF91BDF871417609E7FCA /* AFNetworking.h */,
+				37C6374033D64D12B8AE8150BC356600 /* NSURLConnection */,
+				71CF04F8D5A223C8C9286E497BBC7325 /* NSURLSession */,
+				84ECA822543D564CADC8F651C503E7DC /* Reachability */,
+				A0214667EC560DD471E6F61992C712FF /* Security */,
+				B82B8FB0C16EBE540A2F5D5AF0295C11 /* Serialization */,
+				BEB570BC137ED2430C775104AA7675BB /* Support Files */,
+				69696C91815FEB04794BE26FC1A7B5F7 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		37C6374033D64D12B8AE8150BC356600 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				4B44CC639DD75583DEE9002892032D41 /* AFHTTPRequestOperation.h */,
+				37C8E2D658518AC2E3F183C34C310ADC /* AFHTTPRequestOperation.m */,
+				44F3A8C3C8BFAE294959D0229FEFC319 /* AFHTTPRequestOperationManager.h */,
+				95D66128CC816979C35CAEAE2A1A7F13 /* AFHTTPRequestOperationManager.m */,
+				2782A0CABF814F151C91C6D1B87DBC64 /* AFURLConnectionOperation.h */,
+				DFDC0A64ECCAF1EB30685C8D38DA2C4A /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		4B27368578ACB401F04842CA35B2B78E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA35C4EFCA4F8CAB76097DD57DD1D295 /* Accelerate.framework */,
+				C9744D19EA9E841FF1D13AF5F7EA9981 /* AudioToolbox.framework */,
+				D73D9434D238CE0F6F29B4CAB68CBB53 /* AVFoundation.framework */,
+				7528A8BFB16646711FF195201DDAFA97 /* CoreGraphics.framework */,
+				F9CB90535C3D59503412C7CF0F10ECA3 /* Foundation.framework */,
+				0ACA2706F54E8313B0856F6701415F84 /* GLKit.framework */,
+				532E0152550C276E6E88CB876E566458 /* MobileCoreServices.framework */,
+				B264C4FEBF18C0B48DB4D881ABDD32DB /* QuartzCore.framework */,
+				88250CA5B5435E85D5F43A3E121DED64 /* Security.framework */,
+				441A87424AB123DA82BF78D5697244BD /* SystemConfiguration.framework */,
+				97126C08F726AA34F09A1501358C94AC /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		641782F83F41867DF5ADF2731EB05D74 /* TPCircularBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				73A3179CB172765F2A9563296DCEE2C9 /* TPCircularBuffer.c */,
+				6A8B2FA445AA7BDAA906948BB3B3B0A6 /* TPCircularBuffer.h */,
+				0966321C088D8E76256796B52D01DFEA /* TPCircularBuffer+AudioBufferList.c */,
+				9BCE244DF85F7D1E39C6B44947C7DE15 /* TPCircularBuffer+AudioBufferList.h */,
+				C2E776B693DA8CABE9EA74B5DB1C46CF /* Support Files */,
+			);
+			path = TPCircularBuffer;
+			sourceTree = "<group>";
+		};
+		69696C91815FEB04794BE26FC1A7B5F7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				CE2AC9DEAF11664D79A50B6115598326 /* AFNetworkActivityIndicatorManager.h */,
+				4DB3BFDDCFD1028C77FB608303371241 /* AFNetworkActivityIndicatorManager.m */,
+				8D51A3227CF0D967DA393DD81DE6464F /* UIActivityIndicatorView+AFNetworking.h */,
+				40AEEB72E698EEB4CA5457569369715D /* UIActivityIndicatorView+AFNetworking.m */,
+				912A6E080F66272EFC4832E60EFC0DD5 /* UIAlertView+AFNetworking.h */,
+				FA8780616CE5341F1149B61958E1C69B /* UIAlertView+AFNetworking.m */,
+				4F2E25D6BDB39B461F568C9EB50CB607 /* UIButton+AFNetworking.h */,
+				0662CC63A4A7CC3088329FD6557B71D9 /* UIButton+AFNetworking.m */,
+				EF67A63AC78B524D6F1BE99B95A87669 /* UIImage+AFNetworking.h */,
+				D880942C6784B46E6B437A7DA810C589 /* UIImageView+AFNetworking.h */,
+				ADEC0BFB7A02F482F10F32C376EFAF2E /* UIImageView+AFNetworking.m */,
+				3457E6C9C6856DE84A0F9370819AE4AA /* UIKit+AFNetworking.h */,
+				AB0FF5DA5A7BDEB01CA1DAE455CA11BE /* UIProgressView+AFNetworking.h */,
+				BC4DB9C386CFA8D1EA9F48AD3A5D8142 /* UIProgressView+AFNetworking.m */,
+				2C8699B791368B725EE690DA3981C33D /* UIRefreshControl+AFNetworking.h */,
+				5C5E937868D0E2192BF1DFD1A7906A11 /* UIRefreshControl+AFNetworking.m */,
+				46E8C3D6D9C62474F7D65DCCD484A3F9 /* UIWebView+AFNetworking.h */,
+				2B409290EA0C72B1CB2422CC47CBDA11 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		71CF04F8D5A223C8C9286E497BBC7325 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				875203B4CD0CC75D58F5FFF19BF1BBDB /* AFHTTPSessionManager.h */,
+				7C90F0FFDD2B5EEC349B2D909470B868 /* AFHTTPSessionManager.m */,
+				4C5DD9170507E1C611AC2A3D30380061 /* AFURLSessionManager.h */,
+				282D6C6AC723FF03299830284DA3A5F6 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				EB57DDB3388FBC701046A1E93218737F /* Frameworks */,
+				A1F14A572AF0C918EB807EF3F4833100 /* Pods */,
+				948F50EA827EBAECAB18FB7523EFEF15 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84ECA822543D564CADC8F651C503E7DC /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				008ECB3F1B009A2F520AD2F4F93BEA9E /* AFNetworkReachabilityManager.h */,
+				C8C11602A6175E8326D1975FBC872003 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		948F50EA827EBAECAB18FB7523EFEF15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5423E4AFB785933046698C30314F3863 /* libAFNetworking.a */,
+				FF3473A09B3206926E8ECD90D24D8746 /* libEBPhotoPages.a */,
+				2A9B9920104A26DA00E29909A4F67E92 /* libEZAudio.a */,
+				98574833855E1E4FAAD3537E17EFAE4B /* libPhotoTweaks.a */,
+				1A2E1BEA2EA89099FE9AFAA7B68DD048 /* libPods.a */,
+				2E87CF934E6A1657B01A924878A5830B /* libTPCircularBuffer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0214667EC560DD471E6F61992C712FF /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				10606F006958378816D67561BCFF7E58 /* AFSecurityPolicy.h */,
+				C76AC359244B310BBC8710393C64F36E /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		A1F14A572AF0C918EB807EF3F4833100 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33A43E4796FDE28C81D3D116C6A11C98 /* AFNetworking */,
+				C4D7FC22EEBC404408790B7C64B86359 /* EBPhotoPages */,
+				0FC56DFF750BCC093756725F182D77FC /* EZAudio */,
+				072FEFED0AB9F939C47B50E5CF334DD1 /* PhotoTweaks */,
+				641782F83F41867DF5ADF2731EB05D74 /* TPCircularBuffer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A79B512C16B5C22D12E177869E2A05E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B023A6AA94ECC72185A8E0CB6D8CDB5A /* EBPhotoPages.xcconfig */,
+				6E6E87B21700753594A1FE2AA580F671 /* EBPhotoPages-dummy.m */,
+				5B44C8624C0E0CE475FEF479D78FE321 /* EBPhotoPages-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EBPhotoPages";
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B82B8FB0C16EBE540A2F5D5AF0295C11 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				18DFE4E7E8860080C40E43FC1751D6E1 /* AFURLRequestSerialization.h */,
+				49DB4DBB8F15393F3DB725C9B842AED4 /* AFURLRequestSerialization.m */,
+				86ADEB3D673B61C0966CDE7859FB2224 /* AFURLResponseSerialization.h */,
+				2BE37BBF1612D1CFFDCB63E3BF0DEA8A /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		BEB570BC137ED2430C775104AA7675BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5BE1F92670C1B5FF3761BDFAE5BFC68 /* AFNetworking.xcconfig */,
+				64571E6B9685DBF30A176B47EDB928AF /* AFNetworking-dummy.m */,
+				930FD7C65AD444866E3005D4E09E8283 /* AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		C2E776B693DA8CABE9EA74B5DB1C46CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C0CA58A96FCBFD5DE959A979C4D19C /* TPCircularBuffer.xcconfig */,
+				C47BE4E05C0CD8A1D389F1CEB6E4ECDB /* TPCircularBuffer-dummy.m */,
+				B8F216A98DD176AE93B5B4A8742CC501 /* TPCircularBuffer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPCircularBuffer";
+			sourceTree = "<group>";
+		};
+		C4D7FC22EEBC404408790B7C64B86359 /* EBPhotoPages */ = {
+			isa = PBXGroup;
+			children = (
+				AB26ADE3029417F6305824E579AB6D6B /* EBCaptionView.h */,
+				AEC40456EBC539540F9E40ECE797C307 /* EBCaptionView.m */,
+				3BDF365239F853376BA82C2021D1904D /* EBCommentCell.h */,
+				1F2E97860512640317BD9C8F6D3A7E7D /* EBCommentCell.m */,
+				70B3581B4D7CC2F1C5F9D9B7233A36B1 /* EBCommentsTableView.h */,
+				8D2BE18B9883B3DF13FF694D76077251 /* EBCommentsTableView.m */,
+				8EEA53977FB714520625BDA2BF652C0C /* EBCommentsView.h */,
+				E650A74FFDEFE507BD159B0F4FB98510 /* EBCommentsView.m */,
+				5788EB2BBF05EE6A45391CFCAC4014D1 /* EBCommentsViewDelegate.h */,
+				9CD65E4BC5EE2F6CE3B87F5E2212A8D2 /* EBPhotoCommentProtocol.h */,
+				22E4DDE19D8B7E8A68401D804774C4F5 /* EBPhotoPagesController.h */,
+				1EF602F27C3817466CD01BAEA641B0C4 /* EBPhotoPagesController.m */,
+				04FEE5072CC0151FE24C8C4DCBBC6A62 /* EBPhotoPagesDataSource.h */,
+				476E05BC4F3EB4BA5B4ADAC4D0E4A765 /* EBPhotoPagesDelegate.h */,
+				E2DD6363B3A68EA143F93C78B433B51F /* EBPhotoPagesFactory.h */,
+				4F2590C13394824C77C859DA5A2CBF3C /* EBPhotoPagesFactory.m */,
+				697CD746857DDFEA2C3D9570EAA220C8 /* EBPhotoPagesNotifications.h */,
+				FDDEB0A15D81EF2A8E68239215922DA2 /* EBPhotoPagesOperation.h */,
+				823F782B69F8A9FC2C50271A4C6AE913 /* EBPhotoPagesOperation.m */,
+				5FD393AFAD8BC6EFB41DE4547A31467C /* EBPhotoPagesState.h */,
+				7F00220C24C04571EA0610A215AE4218 /* EBPhotoPagesState.m */,
+				96FAA49BC4D0403B1D73948EA65FEC53 /* EBPhotoPagesStateDelegate.h */,
+				E0DB51F72AA663FF160E378D147E1E06 /* EBPhotoTagProtocol.h */,
+				6CCA2480AC62BD723CF5F11A99E4C7C8 /* EBPhotoToolbar.h */,
+				77A9DD2037476AC043B0259724434351 /* EBPhotoToolbar.m */,
+				9E621F43BF2BE5BF30DFE9737BE62D99 /* EBPhotoView.h */,
+				EACAEE5BC787B069F70452FE61AFEA73 /* EBPhotoView.m */,
+				56A80222401B031C6452F697788C5B89 /* EBPhotoViewController.h */,
+				DB58A380C643760F3AC93DA24786BE76 /* EBPhotoViewController.m */,
+				7EB71E3303A5EF846CE2423084AB4989 /* EBPhotoViewControllerDelegate.h */,
+				8191D42A5297076380C8864439E21914 /* EBShadedView.h */,
+				3190EF08596CCD5788EC66F565332A6E /* EBShadedView.m */,
+				5333F95B1FA19A3CF9EDE2ACA8CF39DF /* EBTagPopover.h */,
+				B350F2328D928FFB462242D1652F85CF /* EBTagPopover.m */,
+				D3EF739CB1C89778CE9023949AD33153 /* EBTagPopoverDelegate.h */,
+				A79B512C16B5C22D12E177869E2A05E3 /* Support Files */,
+			);
+			path = EBPhotoPages;
+			sourceTree = "<group>";
+		};
+		D794011EECEC95A149BA2BA8967B7193 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A05AE00C44C11777596BE0EAB2E23CEC /* EZAudio.xcconfig */,
+				86808D5EEEADDE4309B83B7B013F46B5 /* EZAudio-dummy.m */,
+				857151A26C4BF74AC229810FF8BE43CD /* EZAudio-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EZAudio";
+			sourceTree = "<group>";
+		};
+		EB57DDB3388FBC701046A1E93218737F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B27368578ACB401F04842CA35B2B78E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F86989EDFA9D0C70AD45102178AA9846 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D22609E51E283665EFD56C3E3B79EF46 /* EZAudio.h */,
+				46090E407DC994D681E60CDEA1E73AFE /* EZAudio.m */,
+				F019FAA369B24DF47795C4BFDE01D423 /* EZAudioDevice.h */,
+				619467B18FE455A69952866A37AC1031 /* EZAudioDevice.m */,
+				D3F45FB34C307075CB01D6232BDA6A54 /* EZAudioDisplayLink.h */,
+				B92DE77CB009A5F569E776F6D7C8FAF5 /* EZAudioDisplayLink.m */,
+				F15C0CD08931FFF58ED4F74B3873FB99 /* EZAudioFFT.h */,
+				D9A3C71D20E928930B22DF3A293DA121 /* EZAudioFFT.m */,
+				98115490035D1F4C13C6BDAF01CCD0FB /* EZAudioFile.h */,
+				90CA0D781198906820844E29F8780E66 /* EZAudioFile.m */,
+				FF5E0445B17D31BBFC5D072C9424E8BB /* EZAudioFloatConverter.h */,
+				500B78F038D2FACE3AF830E19F424C87 /* EZAudioFloatConverter.m */,
+				8CC87259D452E57F8A450CF97207573E /* EZAudioFloatData.h */,
+				5B4D0689EF1ADA1B5FBC43129CD93211 /* EZAudioFloatData.m */,
+				93B8F7C2697FC6B81E93B90E988BB090 /* EZAudioPlayer.h */,
+				373B86AE0526D04B70CF761F52A801CB /* EZAudioPlayer.m */,
+				E1AC5D3E1C1698DBC323ACD03C50E26F /* EZAudioPlot.h */,
+				F9D07D257E9B6E0F8FF142E8A62CC599 /* EZAudioPlot.m */,
+				315E846DC193875F4F00E2395D885345 /* EZAudioPlotGL.h */,
+				B8130CA5C2F5BA70CF59CE6FAF850B4E /* EZAudioPlotGL.m */,
+				5821DC929FC6F03CC076E6BAFE37FFE1 /* EZAudioUtilities.h */,
+				20FE19663C0CFA46024C41090E9D7614 /* EZAudioUtilities.m */,
+				A5D53969DDA6369D44F907F24B3FC58C /* EZMicrophone.h */,
+				A5B570A5BECC7169856B9DA6D5BF0D58 /* EZMicrophone.m */,
+				B1EFC84A85CD2BCF96AA2FFFB76A330A /* EZOutput.h */,
+				FDA5F82196AD1D3711FC13ADDC2325E0 /* EZOutput.m */,
+				278C89152B1154E5D2CF2C5101050EC9 /* EZPlot.h */,
+				57572645520FE3411B8A184D5172AF51 /* EZPlot.m */,
+				6302ACDB33B9938980A61CF8B6F45E96 /* EZRecorder.h */,
+				CC6B9E3FEAF3B5D4C39C26D88DC765B9 /* EZRecorder.m */,
+				EE4E75BCADDAC3BAE73BD328C6F0E3EF /* TPCircularBuffer.c */,
+				31CCED1FC911BB8EE87358AA83C0CA38 /* TPCircularBuffer.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39B9F47DD0F7F7902B72705EC8E154A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBA0C02921FEB99A35626E47D1AA1CC /* PhotoTweaksViewController.h in Headers */,
+				1505B7F07E027170F4CB4D7E75333CF5 /* PhotoTweakView.h in Headers */,
+				2C965056BD89151AD0CFC6CAFA9EEADC /* UIColor+Tweak.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888AC14D5BA17342D52E0E639F660E32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE4FCDDAC4B93D304EC160D64BCD52B /* TPCircularBuffer+AudioBufferList.h in Headers */,
+				CAAAA256CDC9F1E36C71C03561DF813D /* TPCircularBuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FD961FBDE8C3B322169D474B889F78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2FF28C9E793BBF6DA5112D36735F8A /* EZAudio.h in Headers */,
+				247BABC306D6E34B459EB80F30CC00EF /* EZAudioDevice.h in Headers */,
+				EAB601E127879B992991497E58D9CE0E /* EZAudioDisplayLink.h in Headers */,
+				EBDCCF6A1E894086D758E5BA260FC7E9 /* EZAudioFFT.h in Headers */,
+				FFB71CF49C4428E4E1CF732FF60FE21D /* EZAudioFile.h in Headers */,
+				53BA1EB28BA98EE871D3D3F5DA4D261D /* EZAudioFloatConverter.h in Headers */,
+				5C7FA5F2E2879A1C207EE595577AD7B4 /* EZAudioFloatData.h in Headers */,
+				9E2B7BBBAE48F004EB526CCE9B5E6C9C /* EZAudioPlayer.h in Headers */,
+				7C93F7671C5EA6A87996AF2909B9393C /* EZAudioPlot.h in Headers */,
+				BE8819C3239C5D081794C93F63D8578C /* EZAudioPlotGL.h in Headers */,
+				15B5665CE15A6EC604A8C1032E83EE3A /* EZAudioUtilities.h in Headers */,
+				3D84A3AD28CE295A3CFA0723B647AE7B /* EZMicrophone.h in Headers */,
+				40368E901914EFA4193A7E8860A50B1A /* EZOutput.h in Headers */,
+				A45890AB83DCB91CDB1A558F25D3567D /* EZPlot.h in Headers */,
+				51E5A012135E28234B19B29140C1FE4B /* EZRecorder.h in Headers */,
+				89BB10913865FE35A1FF33A225740C3B /* TPCircularBuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C26A9D9761804867532D147CEA1D5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211D4EA06F5920376A069ACB55DF6006 /* AFHTTPRequestOperation.h in Headers */,
+				F4A1512E8C4D8C8194CBB276BF72A552 /* AFHTTPRequestOperationManager.h in Headers */,
+				DECD5915774351B8473476B041DD87D7 /* AFHTTPSessionManager.h in Headers */,
+				F4DCBA2A42A38C6E7A755182DA50DEA2 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				2B8269A87473D9F1259E9BD98E7588D3 /* AFNetworking.h in Headers */,
+				78449FCC01114171AA3CCB45C6666206 /* AFNetworkReachabilityManager.h in Headers */,
+				1CBDB47B210A0C2448C14A610BC6D4D6 /* AFSecurityPolicy.h in Headers */,
+				DB2E92A71137AD2E6993E8B0CE682C89 /* AFURLConnectionOperation.h in Headers */,
+				495F717651B12E6496C72D16BCC28C29 /* AFURLRequestSerialization.h in Headers */,
+				1E310D0CE3BE27EF253B6D822B0AEE5E /* AFURLResponseSerialization.h in Headers */,
+				5CF0E043147B69E77976A2CCADFF18CA /* AFURLSessionManager.h in Headers */,
+				A28588D1CCB5253CF80509F30A1AF1A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				399AC825EE10F70364CE7B0AA89F466D /* UIAlertView+AFNetworking.h in Headers */,
+				3A5B54373A45916EC8DE74D060DE5503 /* UIButton+AFNetworking.h in Headers */,
+				903A0E1F82A29D285902CBB5A0828BE9 /* UIImage+AFNetworking.h in Headers */,
+				D4A65C2E29ACB340587FD41196176F8A /* UIImageView+AFNetworking.h in Headers */,
+				F4B03681047157E5C357E584147F5A46 /* UIKit+AFNetworking.h in Headers */,
+				C7ACDDE36465ACAF629FEC233B1BF172 /* UIProgressView+AFNetworking.h in Headers */,
+				C58268D5A4D2A786576E0EAA5B50FB93 /* UIRefreshControl+AFNetworking.h in Headers */,
+				A4EE8D1BEE38B87066BAA1B09A047356 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED80749382DE595EC37E50AD48F6B807 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D844C698E4A5CE55AF58B4F038A24F2F /* EBCaptionView.h in Headers */,
+				3F09C25196EB9F7963EC2FA593812ADC /* EBCommentCell.h in Headers */,
+				A18AC3041B8177885699754B5C4BD00C /* EBCommentsTableView.h in Headers */,
+				F5D19AA1EA4CD82DDA82D5B9B9A3C6C9 /* EBCommentsView.h in Headers */,
+				A1A6D1672135EDC6EE8D6900CFBAB05E /* EBCommentsViewDelegate.h in Headers */,
+				731468489944D2724BD8679D858B689D /* EBPhotoCommentProtocol.h in Headers */,
+				E34D7F2FFE45F0CE9C5DA7DEEF9D6193 /* EBPhotoPagesController.h in Headers */,
+				42C1623BF2DFC8A97C984E085DD22572 /* EBPhotoPagesDataSource.h in Headers */,
+				CD2E7A4DEA2AF306F9BD8109E03F227C /* EBPhotoPagesDelegate.h in Headers */,
+				B01529112C5192A90C2721290CBF847F /* EBPhotoPagesFactory.h in Headers */,
+				623DE8793170BF00F5A53FE7A418EFFC /* EBPhotoPagesNotifications.h in Headers */,
+				046C7E6CC4157667932C5D903663AA84 /* EBPhotoPagesOperation.h in Headers */,
+				788CBD782B68DC09EC8C0DE46D4C271E /* EBPhotoPagesState.h in Headers */,
+				29260268149A678528BEC09832A9575B /* EBPhotoPagesStateDelegate.h in Headers */,
+				33683B807FEAE1A4B0EB6B7207065B06 /* EBPhotoTagProtocol.h in Headers */,
+				C0F89AD0D7F3269A794B75DE22419DAF /* EBPhotoToolbar.h in Headers */,
+				47B9813220A5571BC02803B98BE816C3 /* EBPhotoView.h in Headers */,
+				EA4D712630F8665A34E178F82C8D8331 /* EBPhotoViewController.h in Headers */,
+				9BCAAE70882878033677BEAD4805F859 /* EBPhotoViewControllerDelegate.h in Headers */,
+				F9949E42A479D74F0270A8775FA483AA /* EBShadedView.h in Headers */,
+				D900E17DFCB1248D57FD77AB0FC65625 /* EBTagPopover.h in Headers */,
+				E9293B75759903B6ACE54ED8CB82F31D /* EBTagPopoverDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07ABC0B55D3B505FDCF72E7CB6EFA688 /* TPCircularBuffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A47535DDF80CF161ED2DA1B133D2AFE /* Build configuration list for PBXNativeTarget "TPCircularBuffer" */;
+			buildPhases = (
+				613D3CF5BB101F92C9ECF714CABC3053 /* Sources */,
+				AB9D079C4F5228B1628B6222F5792E17 /* Frameworks */,
+				888AC14D5BA17342D52E0E639F660E32 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPCircularBuffer;
+			productName = TPCircularBuffer;
+			productReference = 2E87CF934E6A1657B01A924878A5830B /* libTPCircularBuffer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2A936C30649417F6EE2597E53A4F7B17 /* PhotoTweaks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52544F595C8DC6BF8057A5BAE55C7BF5 /* Build configuration list for PBXNativeTarget "PhotoTweaks" */;
+			buildPhases = (
+				BB8C4AA21FC16535E72C67E586326718 /* Sources */,
+				59261692E2984B11987024F9F5C95B0F /* Frameworks */,
+				39B9F47DD0F7F7902B72705EC8E154A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoTweaks;
+			productName = PhotoTweaks;
+			productReference = 98574833855E1E4FAAD3537E17EFAE4B /* libPhotoTweaks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2C6066B2BF44CE7CE8E43514ABE04556 /* EBPhotoPages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F288ED66FE8596F58A0C42CE35DCED /* Build configuration list for PBXNativeTarget "EBPhotoPages" */;
+			buildPhases = (
+				DE17C1BBEC954CA85885067ECD5B163F /* Sources */,
+				B4A9525E4C1F0A009757AD515F98B799 /* Frameworks */,
+				ED80749382DE595EC37E50AD48F6B807 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EBPhotoPages;
+			productName = EBPhotoPages;
+			productReference = FF3473A09B3206926E8ECD90D24D8746 /* libEBPhotoPages.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F6B64BF089D072A394601910D14E7B /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				9D44B0AD2D97CB2AA74B614C1E92EDCF /* Sources */,
+				F428C0A5C7AEF469CC7F9B7E6EC0003A /* Frameworks */,
+				E9C26A9D9761804867532D147CEA1D5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 5423E4AFB785933046698C30314F3863 /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A94C068BD0CB145580C0C2C687E821AE /* EZAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467C22C79BCC643B344A889D5C2E6F59 /* Build configuration list for PBXNativeTarget "EZAudio" */;
+			buildPhases = (
+				B89500600B39CAD59149209D12464693 /* Sources */,
+				0E9B1A5FF7422247FBBF792FDAF06CBF /* Frameworks */,
+				D4FD961FBDE8C3B322169D474B889F78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4167871E16095039C2AE5DF12919DD2 /* PBXTargetDependency */,
+			);
+			name = EZAudio;
+			productName = EZAudio;
+			productReference = 2A9B9920104A26DA00E29909A4F67E92 /* libEZAudio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F369FC311ACFB95D68017614623DAC29 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30EEE720E458A310E509F2D36EF1656 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				15AFAA6974E00DC7B42022A47BF05CD7 /* Sources */,
+				A54AA80FC4143F3631D4386620344068 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6E972D58ABDD8954396FEF3DD4BFF4 /* PBXTargetDependency */,
+				5ABE939053F7B8648E2F013F840AE54F /* PBXTargetDependency */,
+				E224A62DEB6271C3638556C37333DF5D /* PBXTargetDependency */,
+				3798F04A4E404A01CDB3ED8E576E6EDB /* PBXTargetDependency */,
+				474FA1CD4120818C7BD7B6AF762B2F88 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 1A2E1BEA2EA89099FE9AFAA7B68DD048 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 948F50EA827EBAECAB18FB7523EFEF15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */,
+				2C6066B2BF44CE7CE8E43514ABE04556 /* EBPhotoPages */,
+				A94C068BD0CB145580C0C2C687E821AE /* EZAudio */,
+				2A936C30649417F6EE2597E53A4F7B17 /* PhotoTweaks */,
+				F369FC311ACFB95D68017614623DAC29 /* Pods */,
+				07ABC0B55D3B505FDCF72E7CB6EFA688 /* TPCircularBuffer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15AFAA6974E00DC7B42022A47BF05CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D520DB66DF441FBBE85C98CD1B8604BE /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613D3CF5BB101F92C9ECF714CABC3053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D643BF3E48386955C3AD80E9FB0BA3 /* TPCircularBuffer+AudioBufferList.c in Sources */,
+				921B7D83843F87C7D588E5B8171C25C2 /* TPCircularBuffer-dummy.m in Sources */,
+				A4D24CE4BCA5723C6CB7C788D42F7E7A /* TPCircularBuffer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D44B0AD2D97CB2AA74B614C1E92EDCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876C2EF5FE318346CDCB4BFE25A9D5B2 /* AFHTTPRequestOperation.m in Sources */,
+				472A6BFCC6207D98F787649BDF44A1BE /* AFHTTPRequestOperationManager.m in Sources */,
+				2CF66E8669A348C421E93F2F67C6A61E /* AFHTTPSessionManager.m in Sources */,
+				B2B5DEC33B644F946C59F656AAAA8146 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				B9DAA002CF3E0E8EBE9B6E9A7778CFD4 /* AFNetworking-dummy.m in Sources */,
+				BC7993B7436D4D7FADE6DD554DA52769 /* AFNetworkReachabilityManager.m in Sources */,
+				B12AD2EE044D6F7424F75F1506B516B2 /* AFSecurityPolicy.m in Sources */,
+				E6DD6ABB4FC13B60FA54C950FB6B262B /* AFURLConnectionOperation.m in Sources */,
+				3033C63AC334D346E9461D0942D8FB69 /* AFURLRequestSerialization.m in Sources */,
+				CAA0F8074B35A2F73890310EC4521A0D /* AFURLResponseSerialization.m in Sources */,
+				6CC4B79C1FEE1E7B3F2860ADA479D381 /* AFURLSessionManager.m in Sources */,
+				AE607E682415FAA160B33C7C13A8475B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				9B47A1441B897F71505D8BE670B0940B /* UIAlertView+AFNetworking.m in Sources */,
+				99E82D6DC032555656E37AF2367B20D3 /* UIButton+AFNetworking.m in Sources */,
+				D070B784EFCA099C141EEAB69FBCC870 /* UIImageView+AFNetworking.m in Sources */,
+				FD6F966F458CEE40B07A2367BA3BC8EC /* UIProgressView+AFNetworking.m in Sources */,
+				854BC4449D8CAD0F2799B021D1914C3B /* UIRefreshControl+AFNetworking.m in Sources */,
+				9A04E971065AF4281E43947994A53D07 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89500600B39CAD59149209D12464693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6774932CC3B1F53D59F35F5028970D1 /* EZAudio-dummy.m in Sources */,
+				25133D64B0E565EF4EE6E7EB453001A9 /* EZAudio.m in Sources */,
+				2910F1A23DF01B87197B81DFFD3A350C /* EZAudioDevice.m in Sources */,
+				435C3866ADE241AB27734EE7969530E5 /* EZAudioDisplayLink.m in Sources */,
+				02C76F7ED008E64076416423B626778D /* EZAudioFFT.m in Sources */,
+				FABDCB54BF6A8173D87F02261D933A4C /* EZAudioFile.m in Sources */,
+				150E6AEC04EE4261A77ACD4EEC105445 /* EZAudioFloatConverter.m in Sources */,
+				3163B3491BC44BD87FB76D643161DEE6 /* EZAudioFloatData.m in Sources */,
+				A3C6358201F7FE29AC21CFE9B7343993 /* EZAudioPlayer.m in Sources */,
+				59B164CF9F41D8C6A1B55245B02B8F6F /* EZAudioPlot.m in Sources */,
+				39889DD58D2BBEFF107CE750BBD0D293 /* EZAudioPlotGL.m in Sources */,
+				78FCAC68EF77BB488D5B247BDE0BA1D0 /* EZAudioUtilities.m in Sources */,
+				88F8437C81214461103FA0FF7CCD271F /* EZMicrophone.m in Sources */,
+				44006E4E1DF867718A262295CBEC4D2F /* EZOutput.m in Sources */,
+				15A038A0EE7FAEB2B64CCE61C3F1D25B /* EZPlot.m in Sources */,
+				38A63F61BBF55A57AF0A83751894AA08 /* EZRecorder.m in Sources */,
+				B7053EB4EAD70C1F3B65BFA7482671D5 /* TPCircularBuffer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8C4AA21FC16535E72C67E586326718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B177CC2B27B6195AF2A519DA86434A /* PhotoTweaks-dummy.m in Sources */,
+				CCD38AD9F8D2418E4F53E85D85C3C9A5 /* PhotoTweaksViewController.m in Sources */,
+				43F326C773D5D1A8207963889579EB93 /* PhotoTweakView.m in Sources */,
+				609A7FE87388A5F000A80C7C9591A5A8 /* UIColor+Tweak.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE17C1BBEC954CA85885067ECD5B163F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA295994F4761312E6D9AF7FA648134 /* EBCaptionView.m in Sources */,
+				17F1C390034B90438B648D54A7A5F884 /* EBCommentCell.m in Sources */,
+				EA0664FBF77E0C96DDB570C4B7DF95D8 /* EBCommentsTableView.m in Sources */,
+				AD29361C51F6FE1842B5E62B0C87F44C /* EBCommentsView.m in Sources */,
+				964472B8CA68F418A7FD97E286B875EC /* EBPhotoPages-dummy.m in Sources */,
+				3BBBAED8B5BED86B06E2168C6C6F627A /* EBPhotoPagesController.m in Sources */,
+				51529A97C86EC4E042CB00A064ED206D /* EBPhotoPagesFactory.m in Sources */,
+				53A1BB271A6545FD7D83EEB502AFF447 /* EBPhotoPagesOperation.m in Sources */,
+				803EB24306E3964CE1244BFCC3ED67A4 /* EBPhotoPagesState.m in Sources */,
+				3305B19CD8390609B4B09625F8D5C6A0 /* EBPhotoToolbar.m in Sources */,
+				54BACDF811A35F9057A2273DC0504C14 /* EBPhotoView.m in Sources */,
+				3D174154F5657A05FA8206FCCD27C2F1 /* EBPhotoViewController.m in Sources */,
+				FA841486049AA8C4140831561770A852 /* EBShadedView.m in Sources */,
+				6DF07947672335F4D112380820DD975B /* EBTagPopover.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3798F04A4E404A01CDB3ED8E576E6EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhotoTweaks;
+			target = 2A936C30649417F6EE2597E53A4F7B17 /* PhotoTweaks */;
+			targetProxy = E44E09176DFE275EAF5EA65B14075D67 /* PBXContainerItemProxy */;
+		};
+		474FA1CD4120818C7BD7B6AF762B2F88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPCircularBuffer;
+			target = 07ABC0B55D3B505FDCF72E7CB6EFA688 /* TPCircularBuffer */;
+			targetProxy = EAEDAE6A59F97630FDD9B211134A44CE /* PBXContainerItemProxy */;
+		};
+		5ABE939053F7B8648E2F013F840AE54F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EBPhotoPages;
+			target = 2C6066B2BF44CE7CE8E43514ABE04556 /* EBPhotoPages */;
+			targetProxy = F05FBE1193B697D909B45D22B44A0049 /* PBXContainerItemProxy */;
+		};
+		C4167871E16095039C2AE5DF12919DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPCircularBuffer;
+			target = 07ABC0B55D3B505FDCF72E7CB6EFA688 /* TPCircularBuffer */;
+			targetProxy = 9D846178B7096ACB16171AF85453B7F3 /* PBXContainerItemProxy */;
+		};
+		E224A62DEB6271C3638556C37333DF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EZAudio;
+			target = A94C068BD0CB145580C0C2C687E821AE /* EZAudio */;
+			targetProxy = 66FAF37CEACC0D2441BA3CC5A4F237D8 /* PBXContainerItemProxy */;
+		};
+		EC6E972D58ABDD8954396FEF3DD4BFF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */;
+			targetProxy = 322716F65B7FE520618494EF50ED56BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		118362F5C1CE5A86714B5E6EC7C928C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C0CA58A96FCBFD5DE959A979C4D19C /* TPCircularBuffer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer/TPCircularBuffer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		25E34E1B8F905062AB13F50B73EE55DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F26FBBEE400AEA4F8B166624F191D5 /* PhotoTweaks.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PhotoTweaks/PhotoTweaks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		339D439B0EBFC8F543B6D66AEBBB075A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05AE00C44C11777596BE0EAB2E23CEC /* EZAudio.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EZAudio/EZAudio-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		48C49533E8CF4DD270A851D7096FA8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C0CA58A96FCBFD5DE959A979C4D19C /* TPCircularBuffer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer/TPCircularBuffer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5E13C805F735FC22E4570F10A7E12EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B023A6AA94ECC72185A8E0CB6D8CDB5A /* EBPhotoPages.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EBPhotoPages/EBPhotoPages-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6C5C40D7A648F616B9454F335C9B401F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05AE00C44C11777596BE0EAB2E23CEC /* EZAudio.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EZAudio/EZAudio-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7854B2BA97FCC76E0E848021B44EAF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		818E3873A12281F34AF1FDCF025CAF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B023A6AA94ECC72185A8E0CB6D8CDB5A /* EBPhotoPages.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EBPhotoPages/EBPhotoPages-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B88B985BCF32AAAD610994FAAE7B9604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BE1F92670C1B5FF3761BDFAE5BFC68 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B9140FC12410CBE58A51EEC03AB28A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BE1F92670C1B5FF3761BDFAE5BFC68 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EB3100C5FF4FBE6C16EC989C7397D1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F938CD25AEE76DAFF62C66333E665424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F26FBBEE400AEA4F8B166624F191D5 /* PhotoTweaks.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PhotoTweaks/PhotoTweaks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F6B64BF089D072A394601910D14E7B /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88B985BCF32AAAD610994FAAE7B9604 /* Debug */,
+				B9140FC12410CBE58A51EEC03AB28A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467C22C79BCC643B344A889D5C2E6F59 /* Build configuration list for PBXNativeTarget "EZAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339D439B0EBFC8F543B6D66AEBBB075A /* Debug */,
+				6C5C40D7A648F616B9454F335C9B401F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52544F595C8DC6BF8057A5BAE55C7BF5 /* Build configuration list for PBXNativeTarget "PhotoTweaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E34E1B8F905062AB13F50B73EE55DA /* Debug */,
+				F938CD25AEE76DAFF62C66333E665424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A47535DDF80CF161ED2DA1B133D2AFE /* Build configuration list for PBXNativeTarget "TPCircularBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118362F5C1CE5A86714B5E6EC7C928C8 /* Debug */,
+				48C49533E8CF4DD270A851D7096FA8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F288ED66FE8596F58A0C42CE35DCED /* Build configuration list for PBXNativeTarget "EBPhotoPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818E3873A12281F34AF1FDCF025CAF7F /* Debug */,
+				5E13C805F735FC22E4570F10A7E12EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30EEE720E458A310E509F2D36EF1656 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3100C5FF4FBE6C16EC989C7397D1EB /* Debug */,
+				7854B2BA97FCC76E0E848021B44EAF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

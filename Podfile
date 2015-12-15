@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+pod 'EBPhotoPages', '~> 0.9.1'
+pod 'AFNetworking', '~> 2.6.1'
+pod 'PhotoTweaks', '~> 1.0.2'
+pod 'EZAudio', '~> 1.1.2'
