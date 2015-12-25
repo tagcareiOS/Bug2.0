@@ -9,7 +9,7 @@
 #import "UserDefault.h"
 #import "const.h"
 #import "Tools.h"
-#import "WLYHttpRequestOperation.h"
+//#import "WLYHttpRequestOperation.h"
 
 #define USER_DEFAULT @"userDefault"
 #define USER_LOGIN @"authen/mobileLogin.do"
@@ -106,21 +106,21 @@
     return userDefaultDictionary;
 }
 
--(AFHTTPRequestOperationManager *)login{
-    NSString * strUrl = [SERVER_URL stringByAppendingString:USER_LOGIN];
-    
-    NSMutableDictionary * data = [self loginDictionary];
-    
-    
-    
-    
-    //返回网络请求的线程
-    return [WLYHttpRequestOperation networkRequest:strUrl
-                                       dictionary:data
-                                           object:self
-                                      requestCode:[NSNumber numberWithInt:REQUEST_CODE_USER_LOGIN]];
-    
-}
+//-(AFHTTPRequestOperationManager *)login{
+//    NSString * strUrl = [SERVER_URL stringByAppendingString:USER_LOGIN];
+//    
+//    NSMutableDictionary * data = [self loginDictionary];
+//    
+//    
+//    
+//    
+//    //返回网络请求的线程
+//    return [WLYHttpRequestOperation networkRequest:strUrl
+//                                       dictionary:data
+//                                           object:self
+//                                      requestCode:[NSNumber numberWithInt:REQUEST_CODE_USER_LOGIN]];
+//    
+//}
 
 - (NSMutableDictionary *)loginDictionary {
     NSMutableDictionary * userDefaultDictionary = [NSMutableDictionary dictionaryWithCapacity:5];

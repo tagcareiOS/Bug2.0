@@ -1,0 +1,23 @@
+//
+//  Bug2.0-Prefix.pch
+//  Bug2.0
+//
+//  Created by Tagcare on 15/12/23.
+//  Copyright © 2015年 Tagcare. All rights reserved.
+//
+
+#ifndef Bug2_0_Prefix_pch
+#define Bug2_0_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "AFNetworking.h"
+#import "UIKit+AFNetworking.h"
+#import "Config.h"
+#import "WLYNetRequestClass.h"
+#import "Tools.h"
+//#import "SVProgressHUD.h"
+
+#endif /* Bug2_0_Prefix_pch */

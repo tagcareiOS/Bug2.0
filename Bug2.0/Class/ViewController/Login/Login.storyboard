@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="Rh4-hj-0FZ">
+            <objects>
+                <viewController storyboardIdentifier="loginViewController" id="NOk-sF-4AB" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9vk-dg-8uL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wzn-cS-rxk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MmU-eV-My5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gs8-GG-rO0">
+                                <rect key="frame" x="0.0" y="123" width="600" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDN-Va-OxI">
+                                <rect key="frame" x="20" y="339" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.60392156860000001" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Mdx-zX-1dc"/>
+                                </constraints>
+                                <state key="normal" title="登    录">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didClickLoginButtonAction:" destination="NOk-sF-4AB" eventType="touchUpInside" id="0hN-hV-y2s"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LeJ-hE-BaU">
+                                <rect key="frame" x="0.0" y="169" width="600" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LeJ-hE-BaU" secondAttribute="trailing" id="38c-Z3-ktt"/>
+                            <constraint firstItem="VDN-Va-OxI" firstAttribute="leading" secondItem="MmU-eV-My5" secondAttribute="leading" constant="20" id="C2d-Z3-Nlu"/>
+                            <constraint firstItem="LeJ-hE-BaU" firstAttribute="leading" secondItem="MmU-eV-My5" secondAttribute="leading" id="Gzp-fQ-CGn"/>
+                            <constraint firstAttribute="trailing" secondItem="VDN-Va-OxI" secondAttribute="trailing" constant="20" id="H1b-pa-CYQ"/>
+                            <constraint firstItem="gs8-GG-rO0" firstAttribute="leading" secondItem="MmU-eV-My5" secondAttribute="leading" id="IIz-6T-ADo"/>
+                            <constraint firstItem="LeJ-hE-BaU" firstAttribute="top" secondItem="gs8-GG-rO0" secondAttribute="bottom" constant="16" id="hsr-73-HkO"/>
+                            <constraint firstItem="VDN-Va-OxI" firstAttribute="top" secondItem="LeJ-hE-BaU" secondAttribute="bottom" constant="140" id="iFx-xJ-EgM"/>
+                            <constraint firstAttribute="trailing" secondItem="gs8-GG-rO0" secondAttribute="trailing" id="mxg-I2-Rs6"/>
+                            <constraint firstItem="gs8-GG-rO0" firstAttribute="top" secondItem="9vk-dg-8uL" secondAttribute="bottom" constant="103" id="yRD-Uj-Vri"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4E0-GS-Wqi"/>
+                    <connections>
+                        <outlet property="nameField" destination="gs8-GG-rO0" id="eb2-Zb-K7Q"/>
+                        <outlet property="passwordFeld" destination="LeJ-hE-BaU" id="7XE-Jd-OtQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ajy-0T-rdV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="571" y="-138"/>
+        </scene>
+    </scenes>
+</document>

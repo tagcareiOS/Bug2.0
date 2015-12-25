@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFHTTPRequestOperationManager.h>
+//#import <AFHTTPRequestOperationManager.h>
 
 @interface UserDefault : NSObject
 
@@ -26,6 +26,6 @@
 -(void)update;
 -(void)saveDictionaryUser: (NSMutableDictionary *)userDictionary;
 
--(AFHTTPRequestOperationManager *)login;
+//-(AFHTTPRequestOperationManager *)login;
 
 @end

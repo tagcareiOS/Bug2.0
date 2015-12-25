@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "BugTabBarController.h"
+#import "LoginViewController.h"
+#import "UserInfo.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UserInfo * user = [[UserInfo alloc] init];
+    if ([user.isLogin isEqualToNumber:@LOGIN_NO]) {
+        //        LoginViewController * loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Login" bundle:[NSBundle mainBundle]];
+        LoginViewController * loginVC = (LoginViewController *)[storyboard instantiateViewControllerWithIdentifier:@"loginViewController"];
+        
+        self.window.rootViewController = loginVC;
+    }else {
+        BugTabBarController * bugTab = [[BugTabBarController alloc] init];
+        self.window.rootViewController = bugTab;
+    }
+    
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
